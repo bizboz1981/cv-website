@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=tangerine:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tangerine', cursive;
+}
+
+.logo {
+    background: url('../images/rosie.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
