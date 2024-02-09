@@ -351,3 +351,60 @@ footer {
 .history-items h4 {
     font-size: 1.2rem;
 }
+
+/* ------------------------------------------------------- Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.form-label {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fafafa;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* ------------------------------------------------------- Media Query */
+
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 50%;
+        min-height: 240px;
+    }
+}
